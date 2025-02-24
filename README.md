@@ -19,7 +19,6 @@ http://localhost:9000
 docker compose down
 
 ```
-
 ## 1.4
 
 Restart
@@ -32,6 +31,7 @@ Show Docker Volumes
 docker volume ls
 
 ```
+<img width="593" alt="Screenshot 2568-02-25 at 03 12 03" src="https://github.com/user-attachments/assets/1780af6f-ff15-4cfb-94cb-2f9046989e42" />
 
 ## 1.5 
 
@@ -58,6 +58,9 @@ Step 5: Verify the Reset
 ```
 http://localhost:9000
 ```
+<img width="593" alt="Screenshot 2568-02-25 at 03 12 03" src="https://github.com/user-attachments/assets/9e69ecad-ab68-4d7e-83fb-5cab17d8d613" />
+
+<img width="1152" alt="Screenshot 2568-02-25 at 03 15 00" src="https://github.com/user-attachments/assets/5662ba73-60a5-4273-a886-4ae82baf2510" />
 
 ## 2.1
 ```
