@@ -5,6 +5,13 @@
 docker compose up -d
 
 ```
+![Uploading Screenshot 2568-02-25 at 03.00.15.png…]()
+
+```
+http://localhost:9000
+
+```
+<img width="1470" alt="Screenshot 2568-02-25 at 03 03 34" src="https://github.com/user-attachments/assets/6e58157f-3e5c-4400-ae0b-681b659ff6c5" />
 
 ## 1.3
 ```
