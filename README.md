@@ -1,4 +1,4 @@
-# lab10
+<img width="1148" alt="Screenshot 2568-02-26 at 22 26 06" src="https://github.com/user-attachments/assets/3350817b-6a0c-4e95-9b4f-0a1f99819de9" /># lab10
 
 ## 1.2
 ```
@@ -63,8 +63,11 @@ http://localhost:9000
 
 ## 2.1
 ```
-cd /home/prab/Documents/DevopLab/my-docker-app
-```
+cd /Users/thanathorn/Desktop/Dev/lab9
+```<img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/edf4d1a5-ca5d-45e3-ab60-fbd186f16a91" />
+<img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/555322c5-ea83-4e86-9d16-05bff29f0453" />
+
+
 
 ## 2.2
 ```
