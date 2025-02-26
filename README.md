@@ -66,11 +66,10 @@ http://localhost:9000
 ```
 cd /Users/thanathorn/Desktop/Dev/lab9
 ```
-<img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/edf4d1a5-ca5d-45e3-ab60-fbd186f16a91" />
-<img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/555322c5-ea83-4e86-9d16-05bff29f0453" />
+<img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/41930bb2-7916-4b44-9f0c-c88b915d8776" />
+<img width="1148" alt="Screenshot 2568-02-26 at 22 26 06" src="https://github.com/user-attachments/assets/de30a965-b849-4bdc-9b35-1382da05baa1" />
 
 
-```
 ## 2.2
 ```
 docker pull awesomekid/my-docker-app:latest
