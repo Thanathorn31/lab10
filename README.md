@@ -1,4 +1,4 @@
-<img width="1148" alt="Screenshot 2568-02-26 at 22 26 06" src="https://github.com/user-attachments/assets/3350817b-6a0c-4e95-9b4f-0a1f99819de9" /># lab10
+ lab10
 
 ## 1.2
 ```
@@ -58,17 +58,19 @@ Step 5: Verify the Reset
 ```
 http://localhost:9000
 ```
+<img width="680" alt="Screenshot 2568-02-26 at 21 00 30" src="https://github.com/user-attachments/assets/c3b7eb8f-ba9f-44d8-b62a-69f116db365d" />
 
 <img width="1152" alt="Screenshot 2568-02-25 at 03 15 00" src="https://github.com/user-attachments/assets/5662ba73-60a5-4273-a886-4ae82baf2510" />
 
 ## 2.1
 ```
 cd /Users/thanathorn/Desktop/Dev/lab9
-```<img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/edf4d1a5-ca5d-45e3-ab60-fbd186f16a91" />
+```
+<img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/edf4d1a5-ca5d-45e3-ab60-fbd186f16a91" />
 <img width="618" alt="Screenshot 2568-02-26 at 22 25 36" src="https://github.com/user-attachments/assets/555322c5-ea83-4e86-9d16-05bff29f0453" />
 
 
-
+```
 ## 2.2
 ```
 docker pull awesomekid/my-docker-app:latest
