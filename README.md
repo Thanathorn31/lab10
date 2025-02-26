@@ -142,8 +142,8 @@ docker run -d --name mongo-express \
   --link mongodb:mongo \
   mongo-express:latest
 ```
-```
-http://3.86.189.252:8081/
-```
+
+<img width="1322" alt="Screenshot 2568-02-27 at 00 46 39" src="https://github.com/user-attachments/assets/1f4fc9d1-0ef5-46fb-a670-0200b8b977d7" />
+
 user : admin
 password : pass
