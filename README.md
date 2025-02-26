@@ -113,10 +113,16 @@ docker run -d -p 8106:80 thanasmp/lab9-web:latest
 
 ## 2.6
 ```
-docker buildx imagetools inspect awesomekid/my-docker-app:latest
-```
+docker buildx create --use --name mybuilder
+docker buildx inspect --bootstrap
 
-![image](https://github.com/user-attachments/assets/c265f29d-df72-413b-8329-0af0d290239a)
+docker buildx build --platform linux/amd64,linux/arm64 -t thanasmp/lab9-web:latest .
+
+docker buildx build --platform linux/amd64,linux/arm64 -t thanasmp/lab9-web:latest --push .
+
+```
+<img width="1308" alt="Screenshot 2568-02-27 at 00 12 46" src="https://github.com/user-attachments/assets/2d57472e-02a6-4633-b71f-989f1b52e227" />
+
 
 ## 3
 ```
