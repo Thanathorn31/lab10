@@ -86,7 +86,10 @@ http://ip:8080
 1. update html
 2. rebuild your docker 
 ```
-docker buildx build --platform linux/amd64,linux/arm64 -t thanasmp/lab9-web:latest --push .
+docker build --platform linux/amd64 -t thanasmp/lab9-web:latest .
+docker login
+docker push thanasmp/lab9-web:latest
+
 ```
 
 From VM
@@ -103,8 +106,10 @@ docker pull thanasmp/lab9-web:latest
 ```
 Run the Updated Container
 ```
-docker run -d -p 8080:80 thanasmp/lab9-web:latest
+docker run -d -p 8106:80 thanasmp/lab9-web:latest
 ```
+<img width="967" alt="Screenshot 2568-02-26 at 23 59 15" src="https://github.com/user-attachments/assets/c5bda6d0-f97a-4c4a-82fa-68e84b1faf16" />
+
 
 ## 2.6
 ```
