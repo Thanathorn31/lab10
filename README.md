@@ -72,11 +72,11 @@ cd /Users/thanathorn/Desktop/Dev/lab9
 
 ## 2.2
 ```
-docker pull awesomekid/my-docker-app:latest
-docker run -d -p 8105:80 --name my-deployed-app awesomekid/my-docker-app:latest
+docker pull thanasmp/lab9-web:latest
+docker run -d -p 8105:80 thanasmp/lab9-web:latest
 ```
 ```
-http://3.86.189.252:8105
+http://ip:8105
 ```
 ## 2.3
 1. update html
