@@ -71,41 +71,39 @@ cd /Users/thanathorn/Desktop/Dev/lab9
 
 
 ## 2.2
+
 ```
 docker pull thanasmp/lab9-web:latest
-docker run -d -p 8105:80 thanasmp/lab9-web:latest
+docker run -d -p 8080:80 thanasmp/lab9-web:latest
 ```
+![Screenshot 2568-02-26 at 23 31 06](https://github.com/user-attachments/assets/368cd988-e255-486f-a25c-06102f325e7a)
+<img width="1159" alt="Screenshot 2568-02-26 at 23 31 42" src="https://github.com/user-attachments/assets/adfc3b4c-83a0-4dbd-8281-cad954a4e8b4" />
+
 ```
-http://ip:8105
+http://ip:8080
 ```
 ## 2.3
 1. update html
 2. rebuild your docker 
 ```
-docker build -t awesomekid/my-docker-app:latest .
-```
-3. Push the Updated Image to Docker Hub
-```
-docker tag awesomekid/my-docker-app:latest awesomekid/my-docker-app:latest
+docker buildx build --platform linux/amd64,linux/arm64 -t thanasmp/lab9-web:latest --push .
 ```
 
-```
-docker push awesomekid/my-docker-app:latest
-```
 From VM
 
 Stop and Remove the Old Container
 ```
-docker stop my-deployed-app
-docker rm my-deployed-app
+docker stop id
+docker rm id
 ```
 Pull the Updated Image from Docker Hub
 ```
-docker pull awesomekid/my-docker-app:latest
+docker pull thanasmp/lab9-web:latest
+
 ```
 Run the Updated Container
 ```
-docker run -d -p 8105:80 --name my-deployed-app awesomekid/my-docker-app:latest
+docker run -d -p 8080:80 thanasmp/lab9-web:latest
 ```
 
 ## 2.6
